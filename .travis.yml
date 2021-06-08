@@ -15,13 +15,13 @@ env:
   matrix:
     - ROS_DISTRO="kinetic" ROS_REPO=main
     - ROS_DISTRO="kinetic" ROS_REPO=testing
-    - ROS_DISTRO="kinetic" PRERELEASE=true
+    #- ROS_DISTRO="kinetic" PRERELEASE=true
     - ROS_DISTRO="melodic" ROS_REPO=main UPSTREAM_WORKSPACE='github:mojin-robotics/ur_msgs#melodic-devel'
     - ROS_DISTRO="melodic" ROS_REPO=testing
-    - ROS_DISTRO="melodic" PRERELEASE=true UPSTREAM_WORKSPACE='github:mojin-robotics/ur_msgs#melodic-devel'
+    #- ROS_DISTRO="melodic" PRERELEASE=true UPSTREAM_WORKSPACE='github:mojin-robotics/ur_msgs#melodic-devel'
     - ROS_DISTRO="noetic" ROS_REPO=main UPSTREAM_WORKSPACE='github:mojin-robotics/ur_msgs#melodic-devel'
     - ROS_DISTRO="noetic" ROS_REPO=testing
-    - ROS_DISTRO="noetic" PRERELEASE=true UPSTREAM_WORKSPACE='github:mojin-robotics/ur_msgs#melodic-devel'
+    #- ROS_DISTRO="noetic" PRERELEASE=true UPSTREAM_WORKSPACE='github:mojin-robotics/ur_msgs#melodic-devel'
 
 #matrix:
 #  allow_failures:
